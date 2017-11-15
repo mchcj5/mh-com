@@ -1,0 +1,151 @@
+
+html {height:100%}
+body{
+	font-family: tahoma;
+	min-height:101%;
+	font-size: 12px;
+}
+
+.bigtitle{
+	font-size: 24px;
+}
+
+.addtitle{
+	font-size: 12px;
+	text-transform:uppercase; 
+}
+
+.secttitle{
+	color:black;
+	font-weight: bold;
+	font-family: verdana;
+}
+.jobname{
+	font-family: Tahoma;
+	font-size: 14px;
+	text-decoration:underline;
+}
+.achievments{
+	font-weight: bold;
+}
+.accomplishment{
+	font-style: italic;
+}
+.thingname{
+	font-weight: bold;
+}
+.timeframe{
+	text-align: right;
+	font-weight: bold;
+}
+.thingrole{
+	font-style: italic;
+}
+
+fieldset{
+	border-color: #FFFFFF;	
+	padding: 20px;
+}
+
+ul{
+	margin-top: 0px;
+}
+
+a{
+	text-decoration:none;
+}
+a.hover{
+	color: yellow;
+}
+
+li{
+	list-style: none;
+}
+	
+img {
+	border: none;
+}	
+@media screen{	
+	
+	#links{
+		text-align: center;
+		font-size: 9px;
+	}
+	/* Detail */
+	.scrollDiv{
+		overflow: auto;
+		height: 470px;
+	}
+	
+	.moreLink{
+		font-style: italic;
+	}
+	
+	.detailTitle{
+		font-family: tahoma;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	
+	#rocketsciencedetail{
+		padding: 10px;
+		border: solid 1px blue;
+		position: absolute;
+		background: #eee;
+		width: 500px;
+		height: 500px;
+		display: none;
+		right: 20;		
+		 -moz-opacity        : 0.95;
+	    filter                : alpha(opacity=95);
+	    opacity                : 0.95;
+	}
+	
+	#codeffectsdetail{
+		padding: 10px;
+		border: solid 1px blue;
+		position: absolute;
+		background: #eee;
+		width: 500px;
+		height: 500px;
+		display: none;
+		right: 20;		
+		 -moz-opacity        : 0.95;
+	    filter                : alpha(opacity=95);
+	    opacity                : 0.95;
+	}
+	
+	#cudetail{
+		padding: 10px;
+		border: solid 1px blue;
+		position: absolute;
+		background: #eee;
+		width: 500px;
+		height: 500px;
+		display: none;
+		right: 20;		
+		 -moz-opacity        : 0.95;
+	    filter                : alpha(opacity=95);
+	    opacity                : 0.95;
+	}
+}
+
+
+
+@media print{
+	#rocketsciencedetail{
+		display:none;
+	}
+	#cudetail{
+		display:none;
+	}
+	#codeffectsdetail{
+		display:none;
+	}
+	.moreLink{
+		display:none;
+	}
+	#links{
+		display: none;
+	}
+}
